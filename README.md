@@ -8,8 +8,8 @@ Modern End-to-End Automatic Speech Recognition (ASR) systems struggle recognizin
 
 ### Table 3: WER for Whisper Original and Finetuned Models over different child speech datasets used in the paper.
 
-**NOTE1:** Model IDs are links to the corresponding models on either OpenAI's HuggingFace page (Group A) or our HuggingFace page (Groups B-F). All of the models are openly available.<br />
-**NOTE2:** A Tensorboard page of all the training and evaluation metrics for each model can be found under the "Training metrics" tab after clicking on a model link.<br />
+**NOTE1:** Model IDs are links to the corresponding models on either OpenAI's HuggingFace page (Group A) or our HuggingFace page (Groups B-F). All of the models are openly available.<br /><br />
+**NOTE2:** A Tensorboard page of all the training and evaluation metrics for each model can be found under the "Training metrics" tab after clicking on a model link.<br /><br />
 **DISCLAIMER:** The child audio datasets used in this paper are subject to licensing agreements, therefore we cannot make them publicly available. For researchers wishing to recreate our experiments, please purchase the licenses required for the original datasets from the publishers and upon providing proof of license, we can share our preprocessed versions.
 
 | **Model ID**   | **Whisper Pretraining Model** | **MyST_test** | **PF_br_test** | **CMU_test** | **PF_sw_test** | **PF_ge_test** | **PF_it_test** | **SO_test** | **Dev_clean** |
@@ -47,3 +47,9 @@ Modern End-to-End Automatic Speech Recognition (ASR) systems struggle recognizin
 | [**25**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot100) | Large-V2 | **11.62** | **2.84** | **1.75** | 8.36 | **34.26** | 4.4 | 14.52 | **4.53** |
 
 
+**Training Hyperparameters:** (common used for all finetuning experiments)
+- Learning Rate: 1e-05
+- Optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08
+- Learning rate scheduler type: Linear
+- Learning rate scheduler warmup steps: 500
+- Training steps: 4000
