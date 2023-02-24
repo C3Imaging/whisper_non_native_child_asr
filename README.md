@@ -8,6 +8,10 @@ Modern End-to-End Automatic Speech Recognition (ASR) systems struggle recognizin
 
 ### Table 3: WER for Whisper Original and Finetuned Models over different child speech datasets used in the paper.
 
+**NOTE1:** Model IDs are links to the corresponding models on either OpenAI's HuggingFace page (Group A) or our HuggingFace page (Groups B-F). All of the models are openly available.<br />
+**NOTE2:** A Tensorboard page of all the training and evaluation metrics for each model can be found under the "Training metrics" tab after clicking on a model link.<br />
+**DISCLAIMER:** The child audio datasets used in this paper are subject to licensing agreements, therefore we cannot make them publicly available. For researchers wishing to recreate our experiments, please purchase the licenses required for the original datasets from the publishers and upon providing proof of license, we can share our preprocessed versions.
+
 | **Model ID**   | **Whisper Pretraining Model** | **MyST_test** | **PF_br_test** | **CMU_test** | **PF_sw_test** | **PF_ge_test** | **PF_it_test** | **SO_test** | **Dev_clean** |
 | :---    | :------ | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | **<ins>Group A:</ins> No-Finetuning:** |
