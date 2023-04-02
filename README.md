@@ -10,7 +10,7 @@ Modern End-to-End Automatic Speech Recognition (ASR) systems struggle recognizin
 
 **NOTE1:** Model IDs are links to the corresponding models on either OpenAI's HuggingFace page (Group A) or our HuggingFace page (Groups B-F). All of the models are openly available.<br /><br />
 **NOTE2:** A Tensorboard page of all the training and evaluation metrics for each model can be found under the "Training metrics" tab after clicking on a model link.<br /><br />
-**DISCLAIMER:** The child audio datasets used in this paper are subject to licensing agreements, therefore we cannot make them publicly available. For researchers wishing to recreate our experiments, please purchase the licenses required for the original datasets from the publishers and upon providing proof of license, we can share our preprocessed versions.
+**DISCLAIMER:** We can only make the basic data cleaning scripts available here as the child audio datasets used in this paper are subject to licensing agreements. For access to respectively cleaner versions of datasets used in this paper, researchers can buy their own license for the original datasets (where required), and on providing proof of that license, can get access to our ‘clean’ versions upon request.
 
 | **Model ID**   | **Whisper Pretraining Model** | **MyST_test** | **PF_br_test** | **CMU_test** | **PF_sw_test** | **PF_ge_test** | **PF_it_test** | **SO_test** | **Dev_clean** |
 | :---    | :------ | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
