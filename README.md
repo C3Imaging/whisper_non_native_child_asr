@@ -36,15 +36,30 @@ We can only make the basic data cleaning scripts available here as the child aud
 | [**14**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu) | Medium | 12.14 | 41.83 | 4.46 | 158.75 | 113.07 | 125.05 | 33.24 | 6.1 |
 | [**15**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu) | Medium.en | **12.10** | 31.29 | 2.27 | 138.95 | 125.37 | 77.38 | 33.32 | 6.13 |
 | [**16**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu) | Large-V2 | 12.37 | **23.62** | **2.32** | 184.24 | 211.01 | 180.79 | 48.34 | **4.81** |
-| **<ins>Group D:</ins> MyST_train + CMU_train + PF_br_train Finetuning:** |
+| **<ins>Group D:</ins> MyST_train + PF_br_train Finetuning:** |
+| [**14**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu) | Medium | 12.14 | 41.83 | 4.46 | 158.75 | 113.07 | 125.05 | 33.24 | 6.1 |
+| [**15**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu) | Medium.en | **12.10** | 31.29 | 2.27 | 138.95 | 125.37 | 77.38 | 33.32 | 6.13 |
+| [**16**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu) | Large-V2 | 12.37 | **23.62** | **2.32** | 184.24 | 211.01 | 180.79 | 48.34 | **4.81** |
+
+| **<ins>Group E:</ins> MyST_train + CMU_train + PF_br_train Finetuning:** |
 | [**17**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf) | Medium | 11.72 | 3.11 | 2.36 | 23.94 | 86.13 | 16.72 | 27.88 | 5.62 |
 | [**18**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf) | Medium.en | **11.71** | 3.02 | 2.23 | 21.65 | **68.1** | **15.87** | **26.43** | 5.57 |
 | [**19**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf) | Large-V2 | 12.37 | **3.1** | **1.86** | 43.34 | 71.18 | 56.29 | 32.99 | **4.75** |
-| **<ins>Group E:</ins> MyST_train + CMU_train + PF_br_train + Others_train_50 Finetuning:** |
+
+| **<ins>Group E:</ins> MyST_train + PF_br_train + NN_10 Finetuning:** |
 | [**20**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot50) | Medium | 12.75 | 3.11 | **1.98** | **8.99** | 36.67 | **5.14** | **16.09** | 6.09 |
 | [**21**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot50) | Medium.en | 12.35 | 3.42 | 2.06 | 9.04 | 35.92 | 5.84 | 17.55 | 5.28 |
 | [**22**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot50) | Large-V2 | **11.73** | **3.13** | 2.56 | 9.67 | **35.05** | 5.51 | 15.83 | **4.69** |
-| **<ins>Group F:</ins> MyST_train + CMU_train + PF_br_train + Others_train_100 Finetuning:** |
+| **<ins>Group F:</ins> MyST_train + PF_br_train + NN_20 Finetuning:** |
+| [**23**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot100) | Medium | 12.55 | 3.09 | 1.96 | **7.66** | 34.77 | **4.11** | **14.31** | 6.06 |
+| [**24**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot100) | Medium.en | 11.88 | 3.28 | 1.98 | 8.16 | 34.99 | 4.65 | 15.87 | 5.15 |
+| [**25**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot100) | Large-V2 | **11.62** | **2.84** | **1.75** | 8.36 | **34.26** | 4.4 | 14.52 | **4.53** |
+
+| **<ins>Group E:</ins> MyST_train + CMU_train + PF_br_train + NN_10 Finetuning:** |
+| [**20**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot50) | Medium | 12.75 | 3.11 | **1.98** | **8.99** | 36.67 | **5.14** | **16.09** | 6.09 |
+| [**21**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot50) | Medium.en | 12.35 | 3.42 | 2.06 | 9.04 | 35.92 | 5.84 | 17.55 | 5.28 |
+| [**22**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot50) | Large-V2 | **11.73** | **3.13** | 2.56 | 9.67 | **35.05** | 5.51 | 15.83 | **4.69** |
+| **<ins>Group F:</ins> MyST_train + CMU_train + PF_br_train + NN_20 Finetuning:** |
 | [**23**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot100) | Medium | 12.55 | 3.09 | 1.96 | **7.66** | 34.77 | **4.11** | **14.31** | 6.06 |
 | [**24**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot100) | Medium.en | 11.88 | 3.28 | 1.98 | 8.16 | 34.99 | 4.65 | 15.87 | 5.15 |
 | [**25**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot100) | Large-V2 | **11.62** | **2.84** | **1.75** | 8.36 | **34.26** | 4.4 | 14.52 | **4.53** |
