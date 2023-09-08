@@ -4,17 +4,14 @@
 
 Modern End-to-End Automatic Speech Recognition (ASR) systems struggle recognizing children's speech due to limited child training data and acoustic variability of child speech, particularly in low-resource languages or with accented speech. This study focuses on improving the performance of ASR on native and non-native English child speech using publicly available datasets. Specifically, we evaluate the performance of the large-scale Whisper models (trained with large amount of adult speech data) on child speech. In addition, finetuning experiments using different child speech datasets are used to study the performance of ASR for non-native English child speech. We report relative WER improvements between 29% and 89% compared to previously reported results on the same datasets by using only a 10% distribution on unseen non-native datasets in finetuning. These results demonstrate the potential of Whisper for improving ASR on low-resource non-native child speech.
 
-
-## Disclaimer
-
-We can only make the basic data cleaning scripts available here as the child audio datasets used in this paper are subject to licensing agreements. For access to respectively cleaner versions of datasets used in this paper, researchers can buy their own license for the original datasets (where required), and on providing proof of that license, can get access to our ‘clean’ versions upon request.
-
 ## Codebase:
 We followed the setup from whisper finetuning event for performing the ASR finetuning experiments with child speech. The training and finetuning details for replicating our experiments can be followed from the following link: 
-https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event![image](https://github.com/C3Imaging/whisper_non_native_child_asr/assets/19801035/3d7e980a-98ae-4c40-8826-9008c86dc6c6)
+https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event
 
-We also provide a more comprehensive understanding of the hyperparameter settings and training details for all our experiments on our Hugging Face repository which is accessible at https://huggingface.co/rishabhjain16 ![image](https://github.com/C3Imaging/whisper_non_native_child_asr/assets/19801035/d0be0e00-de8e-4784-ae0c-bbd40565d161)
- ![image](https://github.com/C3Imaging/whisper_non_native_child_asr/assets/19801035/6cacac4d-2ee2-4b9e-93b2-26597904d0f7)
+We also provide a more comprehensive understanding of the hyperparameter settings and training details for all our experiments on our Hugging Face repository which is accessible at https://huggingface.co/rishabhjain16 
+
+## Dataset availability and accessibility:
+We can only make the basic data cleaning scripts available here as the child audio datasets used in this paper are subject to licensing agreements. For access to respectively cleaner versions of datasets used in this paper, researchers can buy their own license for the original datasets (where required), and on providing proof of that license, can get access to our ‘clean’ versions upon request. All the datasets utilized in this paper are privately accessible through our Hugging Face page. They can be shared if deemed necessary, provided that the terms and conditions governing their use are adhered to.
 
 ## Table of Results with Checkpoints
 
