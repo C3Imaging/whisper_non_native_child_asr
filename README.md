@@ -1,4 +1,4 @@
-# Experimental analysis on finetuning large scale supervision to improve the Non-Native English Child speech recognition.
+![image](https://github.com/C3Imaging/whisper_non_native_child_asr/assets/19801035/7b84a16c-448a-4854-99d8-ad6cb1ceabce)# Experimental analysis on finetuning large scale supervision to improve the Non-Native English Child speech recognition.
 
 ## Abstract
 
@@ -54,9 +54,9 @@ We can only make the basic data cleaning scripts available here as the child aud
 | [**24**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot50) | Medium.en | 12.35 | 3.42 | 2.06 | 9.04 | 35.92 | 5.84 | 17.55 | 5.28 |
 | [**25**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot50) | Large-V2 | **11.73** | **3.13** | 2.56 | 9.67 | **35.05** | 5.51 | 15.83 | **4.69** |
 | **<ins>Group G:</ins> MyST_train + PF_br_train + NN_20 Finetuning:** |
-| [**26**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot100) | Medium | 12.55 | 3.09 | 1.96 | **7.66** | 34.77 | **4.11** | **14.31** | 6.06 |
-| [**27**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot100) | Medium.en | 11.88 | 3.28 | 1.98 | 8.16 | 34.99 | 4.65 | 15.87 | 5.15 |
-| [**28**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot100) | Large-V2 | **11.62** | **2.84** | **1.75** | 8.36 | **34.26** | 4.4 | 14.52 | **4.53** |
+| [**26**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot100) | Medium | 11.96 | 3.12 | **8.92** | 7.74 | 36.21 | 4.16 | 14.40 | 5.39 |
+| [**27**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot100) | Medium.en | 12.30 | 3.28 | 9.53 | 8.94 | 34.78 | 4.42 | 14.87 | 5.01 |
+| [**28**](https://huggingface.co/rishabhjain16/whisper_large_v2_to_myst_cmu_pf_ot100) | Large-V2 | **11.60** | **3.09** | 9.22 | **7.24** | **31.46** | **3.98** | **13.83** | **4.47** |
 | **<ins>Group H:</ins> MyST_train + CMU_train + PF_br_train + NN_10 Finetuning:** |
 | [**29**](https://huggingface.co/rishabhjain16/whisper_medium_to_myst_cmu_pf_ot50) | Medium | 12.75 | 3.11 | **1.98** | **8.99** | 36.67 | **5.14** | **16.09** | 6.09 |
 | [**30**](https://huggingface.co/rishabhjain16/whisper_medium_en_to_myst_cmu_pf_ot50) | Medium.en | 12.35 | 3.42 | 2.06 | 9.04 | 35.92 | 5.84 | 17.55 | 5.28 |
