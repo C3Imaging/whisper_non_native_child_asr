@@ -11,5 +11,5 @@ The training can also be used in a colab environment using the following link: h
 
 1. If you are preparing your own dataset, please use the utils scripts first to prepare and clean the audio datasets. 
 
-2. Additionally, after using the basic utils scripts to clean and prepare the audio dataset, the dataset can be further converted into Hugging face audio dataset format by as follows: https://huggingface.co/docs/datasets/audio_dataset.
+2. Additionally, after using the basic utils scripts to clean and prepare the audio dataset, the dataset can be further converted into Hugging face audio dataset format as follows: https://huggingface.co/docs/datasets/audio_dataset.
 
